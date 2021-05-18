@@ -42,36 +42,58 @@
 // class Person extends Master
 
 // inheriting
-class Human {
-  constructor() {
-    this.gender = 'male';
-  }
-  printGender() {
-    console.log(this.gender);
-  }
-}
+// class Human {
+//   constructor() {
+//     this.gender = 'male';
+//   }
+//   printGender() {
+//     console.log(this.gender);
+//   }
+// }
 
-class Person extends Human {
-  // need to use super when extending another class to another
-  //creating a new class
-  constructor() {
-    super();
-    this.name = 'Tom';
-  }
-  printMyName() {
-    console.log(this.name);
-  }
-}
-const person = new Person();
-person.printMyName();
-person.printGender();
+// class Person extends Human {
+//   // need to use super when extending another class to another
+//   //creating a new class
+//   constructor() {
+//     super();
+//     this.name = 'Tom';
+//   }
+//   printMyName() {
+//     console.log(this.name);
+//   }
+// }
+// const person = new Person();
+// person.printMyName();
+// person.printGender();
 
 // CLASS, PROPERTIES AND METHODS
+// classes do not need this.
+// methods are arrow functions
+// class Human {
+//   gender = 'male';
+
+//   printGender = () => {
+//     console.log(this.gender);
+//   }
+// }
+
+// class Person extends Human {
+//   // need to use super when extending another class to another
+//   //creating a new class
+// name = 'Tom';
+
+//   printMyName = () => {
+//     console.log(this.name);
+//   }
+// }
+// const person = new Person();
+// person.printMyName();
+// person.printGender();
 
 // THE SPREAD AND REST OPERATOR
 
 // DESTRUCTURING
 
-// REF AND PRIM TIMES REFRESHER
+// REFRENCE AND PRIM TIMES REFRESHER
 
 // REFESH ARRAY FUNCTIONS
