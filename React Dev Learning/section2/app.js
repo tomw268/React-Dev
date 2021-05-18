@@ -91,6 +91,12 @@
 // person.printGender();
 
 // THE SPREAD AND REST OPERATOR
+// Spread Used to split up array elements OR object properties
+//const newArray = [...oldArray,1,2]
+//const newObject = {...oldObject, newProp:5}
+
+//Rest used to merge a list of function arguments into an array
+// function sortArgs{..args}{return args.sort()}
 
 // DESTRUCTURING
 
