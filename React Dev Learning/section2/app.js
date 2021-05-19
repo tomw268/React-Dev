@@ -99,7 +99,15 @@
 // function sortArgs{..args}{return args.sort()}
 
 // DESTRUCTURING
+// ARRAY DESTRUCTURING
+// [a,b] = ['hello', 'tom']
+// console.log(a)// hello
+// console.log(b)// tom
 
+// OBJECT DESTRUCTURING
+// {name} = {name: 'Tom', age :28}
+// console.log(name)//Tom
+// console.log(age)// undefinded
 // REFRENCE AND PRIM TIMES REFRESHER
 
 // REFESH ARRAY FUNCTIONS
