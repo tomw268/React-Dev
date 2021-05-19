@@ -108,6 +108,12 @@
 // {name} = {name: 'Tom', age :28}
 // console.log(name)//Tom
 // console.log(age)// undefinded
+
 // REFRENCE AND PRIM TIMES REFRESHER
+// ojects and arrays are reference types only pointers not pure copies
 
 // REFESH ARRAY FUNCTIONS
+// const numbers = [1, 2, 3];
+// const doubleNumArray = numbers.map((num) => {
+//   return num * 2;
+// });
