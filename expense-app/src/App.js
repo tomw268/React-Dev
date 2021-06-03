@@ -17,10 +17,7 @@ function App() {
   return (
     <div>
       <h2>Tom's Expense App!!</h2>
-      <Expenses item={expense[0]} />
-      <Expenses item={expense[1]} />
-      <Expenses item={expense[2]} />
-      <Expenses item={expense[3]} />
+      <Expenses item={expense} />
     </div>
   );
 }
