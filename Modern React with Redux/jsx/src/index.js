@@ -3,6 +3,7 @@ import React from 'react';
 import ReactDom from 'react-dom';
 // Create a React component
 const App = () => {
+  const buttonText = 'Click Me!';
   return (
     <div>
       <label for="name" className="label">
@@ -10,7 +11,7 @@ const App = () => {
       </label>
       <input id="name" type="text" />
       <button style={{ backgroundColor: 'blue', color: 'white' }}>
-        Submit
+        {buttonText}
       </button>
     </div>
   );
