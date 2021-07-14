@@ -15,7 +15,7 @@ const App = () => {
       </label>
       <input id="name" type="text" />
       <button style={{ backgroundColor: 'blue', color: 'white' }}>
-        {buttonText}
+        {getButtonText()}
       </button>
     </div>
   );
