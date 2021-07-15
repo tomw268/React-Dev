@@ -2,9 +2,6 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 
-const getButtonText = () => {
-  return 'Click on Me!!!';
-};
 // Create a React component
 const App = () => {
   const buttonText = 'Click Me!';
