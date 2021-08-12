@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 import faker from 'faker';
+import CommentDetail from './CommentDetail';
 
 const App = () => {
   return (
