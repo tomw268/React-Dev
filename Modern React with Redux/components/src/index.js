@@ -7,6 +7,7 @@ const App = () => {
   return (
     <div className="ui container comments">
       <CommentDetail />
+      <CommentDetail />
     </div>
   );
 };
