@@ -4,7 +4,11 @@ import faker from 'faker';
 import CommentDetail from './CommentDetail';
 
 const App = () => {
-  return <div className="ui container comments"></div>;
+  return (
+    <div className="ui container comments">
+      <CommentDetail />
+    </div>
+  );
 };
 
 ReactDom.render(<App />, document.querySelector('#root'));
