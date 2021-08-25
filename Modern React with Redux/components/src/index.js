@@ -7,16 +7,19 @@ const App = () => {
   return (
     <div className="ui container comments">
       <CommentDetail
+        avatar={faker.image.avatar()}
         author="Sam"
         timeAgo="Today @ 4:50PM"
         text="Nice Blog Post"
       />
       <CommentDetail
+        avatar={faker.image.avatar()}
         author="Alex"
         timeAgo="Today @ 2AM"
         text="I hated this one!!"
       />
       <CommentDetail
+        avatar={faker.image.avatar()}
         author="Jane"
         timeAgo="Yesterday @ 5PM"
         text="Dude love this, best one yet"
